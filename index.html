@@ -1,7 +1,15 @@
 <html>
   <head>
     <title>Max's website</title>
+
     <style>
+      /**
+       * This is a comment, which means it's just here to explain code
+       * and won't affect anything.
+       *
+       * The stuff in here is CSS, which lets you change the appearance
+       * of the website
+       */
       body {
         background-color: linen;
       }
@@ -10,13 +18,21 @@
         color: maroon;
         margin-left: 40px;
       }
+      /* End of the styling */
     </style>
+
   </head>
+
   <body>
     <h1>Hello</h1>
     <button onclick={window.clickme()}>Click me!</button>
   </body>
+
   <script>
+    /**
+     * This is the javascript, where you can make your page interactive
+     */
+
     window.clickme = function() {
       alert("you clicked me");
     }
